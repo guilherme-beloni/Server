@@ -1,0 +1,4 @@
+rodar o SQLite add no dataBase: npx prisma studio
+
+rodar o server: npm run dev
+
