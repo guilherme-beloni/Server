@@ -30,7 +30,7 @@ model Habit {
 model Day {
   id       String     @id @default(uuid())
   date     DateTime
-  dayHabit DayHabit[]
+  dayHabits DayHabit[]
 
   @@unique([date])
   @@map("days")
